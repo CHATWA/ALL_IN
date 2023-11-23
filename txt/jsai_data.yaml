@@ -1,0 +1,19 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Example usage: yolo train data=jsai_data.yaml
+
+train: ./dataset/images/train
+val: ./dataset/images/val
+
+# number of classes 类别数
+nc: 8
+
+# Classes
+names:
+  0: Transverse Crack
+  1: Longitudinal Crack
+  2: Block Crack
+  3: Alligator Cracking
+  4: Pothole
+  5: Patching Mesh Cracks
+  6: Crack Repair
+  7: Pothole Repair
